@@ -1,0 +1,12 @@
+replicaCount: 1
+image:
+  repository: morph-router-demo
+  tag: local
+  pullPolicy: IfNotPresent
+service:
+  port: 8000
+routing:
+  longContextThreshold: 32000
+  editBackend: fast-apply-model
+  longContextBackend: long-context-model
+  defaultBackend: default-model

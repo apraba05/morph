@@ -1,0 +1,6 @@
+apiVersion: v2
+name: morph-router
+description: Local coding-agent model router demo
+type: application
+version: 0.1.0
+appVersion: "1.0"
